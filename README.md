@@ -124,6 +124,8 @@ The `s3cli.py` provides a command-line interface for managing S3 buckets and gen
 - Generating analysis reports from RS3 documents already in S3
 - Organizing and archiving proposal documents
 - Streamlining the document analysis workflow
+<img width="804" alt="image" src="https://github.com/user-attachments/assets/a6359994-a73d-44a9-a07f-e6af788bc271">
+
 
 To use the S3 CLI tool:
 
