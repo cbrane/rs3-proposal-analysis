@@ -119,7 +119,11 @@ This will:
 
 ### S3 CLI Tool
 
-The `s3cli.py` provides a command-line interface for managing S3 buckets related to the project.
+The `s3cli.py` provides a command-line interface for managing S3 buckets and generating reports. This tool serves as a central hub for:
+- Managing RS3 files stored in S3 buckets
+- Generating analysis reports from RS3 documents already in S3
+- Organizing and archiving proposal documents
+- Streamlining the document analysis workflow
 
 To use the S3 CLI tool:
 
@@ -127,10 +131,22 @@ To use the S3 CLI tool:
 python s3cli.py
 ```
 
-Follow the on-screen prompts to perform operations such as:
-- Listing bucket contents
-- Uploading/downloading files
-- Archiving or unarchiving files
+The tool provides an interactive menu with options to:
+1. **S3 File Manager**: Navigate and manage files in your S3 buckets
+   - List bucket contents
+   - Upload/download files
+   - Archive or unarchive files
+   - Organize proposal documents
+
+2. **Run RS3 Report Generation**: Generate analysis reports for RS3 documents
+   - Process RS3 documents stored in S3
+   - Generate detailed analysis reports
+   - Extract key information automatically
+   - Apply AI-powered document analysis
+
+3. **Exit**: Safely exit the application
+
+This tool is designed to make it easy to manage your RS3 documents and generate reports without needing to directly interact with AWS S3 commands or write custom scripts.
 
 ## Key Components
 
