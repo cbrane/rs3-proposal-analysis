@@ -1,0 +1,44 @@
+{
+    "assistants": [
+      {
+        "name": "Extract RS3 Number",
+        "id": ""
+      },
+      {
+        "name": "Extract Requirements", 
+        "id": ""
+      },
+      {
+        "name": "Generate Title",
+        "id": ""
+      },
+      {
+        "name": "Analyze Fit",
+        "id": ""
+      },
+      {
+        "name": "Find Matches",
+        "id": ""
+      },
+      {
+        "name": "Identify Keywords",
+        "id": ""
+      },
+      {
+        "name": "Analyze Scope",
+        "id": ""
+      },
+      {
+        "name": "Compare Past Performance",
+        "id": ""
+      },
+      {
+        "name": "RS3 Email",
+        "id": ""
+      },
+      {
+        "name": "RS3 Bid",
+        "id": ""
+      }
+    ]
+}
